@@ -1,0 +1,120 @@
+body {
+    background-color: #c1d7da;
+}
+
+#main-container {
+    width: 80vw
+}
+
+#section-container {
+    text-align: center;
+    padding-left: 15%;
+}
+
+#main-container section {
+    display: inline-block;
+    background-color: #e2d1d1;
+    border: solid;
+    border-color: #13D7ED;
+    border-width: 15px;
+    border-radius: 25px;
+}
+
+#side-bar {
+    float: left;
+    width: 200px;
+    height: 600px;
+}
+
+#side-bar ul {
+    /* border: solid; */
+    padding: 10%;
+    list-style: none;
+    text-align: center;
+}
+
+#side-bar li {
+    background-color: #0a0a0a;
+    margin-top: 30px;
+    color: #141413;
+    border: solid;
+    border-width: 7px;
+
+}
+
+.nav-link a {
+    color: #F5F0DF;
+    text-decoration: none;
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+#center-dashboard {
+    width: 800px;
+    height: 800px;
+}
+
+#searchInput {
+    background-color: #6b6565;
+    width: 40%;
+    margin: 15px auto;
+    padding: 2%;
+    color: #F5F0DF;
+    border: solid;
+    border-width: 5pt;
+    
+}
+
+#searchInput input {
+    margin-left: 15px;
+}
+
+#searchInput label {
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+#card-container {
+    padding: 20px;
+}
+
+#card-container div {
+    display: inline-block;
+    background-color: rgb(236, 222, 222);
+    width: 300px;
+    height: 220px;
+    margin: 20px;
+    border: solid;
+   
+}
+
+#card-container ul {
+    list-style: none;
+}
+
+#card-container h1 {
+    width: 50%
+}
+
+#card-container li {
+    width: 70%;
+    text-align: left;
+    padding: 3px;
+    margin-left: 20px;
+    font-size: 14pt;
+    font-weight: bold;
+    color: #111110;
+}
+
+footer {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    color: #050505;
+}
+
+footer a {
+    margin: 0 15px;
+}
+
+footer h4 {}
